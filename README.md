@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Muhammad%20Adillah&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Graphic%20Designer%20%7C%20Video%20Editor%20%7C%20Multimedia%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=diells&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Graphic%20Designer%20%E2%86%92%20Fullstack%20Developer%20(on%20progress)&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=F72585&center=true&vCenter=true&width=620&lines=Turning+ideas+into+visual+stories+%F0%9F%8E%A8;Graphic+Designer+%26+Video+Editor;Belajar+Web+%26+Game+Development+%F0%9F%92%BB;Selalu+ingin+tahu%2C+selalu+berkarya+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=F72585&center=true&vCenter=true&width=620&lines=From+Photoshop+to+Python+%F0%9F%90%8D;Basic+Graphic+Designer%2C+Future+Fullstack+Dev;Masih+on+progress...+selalu+belajar+%F0%9F%9A%A7;Design+meets+Code+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,23 +20,33 @@
 
 ---
 
-### 👋 Tentang Aku
+### 👋 Tentang
 
 ```yaml
-Nama       : Muhammad Adillah
-Peran      : Graphic Designer • Video Editor • Multimedia Enthusiast
-Pendidikan : Teknologi Rekayasa Multimedia, Politeknik Negeri Lhokseumawe (IPK 3.60/4.00)
-Lokasi     : Aceh, Indonesia 🇮🇩
-Fokus saat ini : Konten visual & branding, sambil merambah web & game development
-Motto      : "Turning ideas into engaging visuals."
+Nama           : diells
+Peran          : Graphic Designer → belajar jadi Fullstack Developer
+Status         : 🚧 On Progress — masih terus belajar
+Fokus saat ini : HTML, CSS, JavaScript, Python, Flask, MySQL
+Motto          : "From Photoshop to Python."
 ```
 
-- 🎨 Freelance **Graphic Designer** di **Zafa Creative Production**
-- 🏢 **Graphic Designer & Video Editor (Contract)** di **PT Listrik Alina Rezeki Sukses**
-- 🤝 **Graphic Designer & Video Editor** di **Yayasan Meutuah Atha Nurilmi**
-- 🎬 Pernah magang sebagai **Multimedia Specialist** di **PT Sagoe Media Kreasi (SagoeTV)** — liputan berita & konten kreatif
-- 🌱 Lagi belajar pelan-pelan masuk ke dunia **web development** & **game development**
-- 💬 Ajak ngobrol soal: Desain Grafis, Video Editing, Branding, atau UI/UX
+- 🎨 Basic Graphic Designer — biasa main di Photoshop, Premiere Pro, After Effects, Figma
+- 🚀 Sekarang lagi on progress belajar **Fullstack Development**
+- 🧩 Fokus belajar: HTML, CSS, JavaScript, Python, Flask, MySQL, Git
+- 🌱 Percaya proses — dari visual design pelan-pelan merambah ke logic & kode
+- 💬 Terbuka diskusi soal transisi Design → Code, atau kolaborasi project
+
+<br/>
+
+### 🎯 Learning Path — Fullstack Development
+
+- [x] HTML & CSS
+- [x] JavaScript Dasar
+- [x] Python & Flask
+- [ ] MySQL & Database Design
+- [ ] REST API
+- [ ] Frontend Framework (React / Vue)
+- [ ] Git Workflow & Deployment
 
 <br/>
 
@@ -48,38 +58,30 @@ Motto      : "Turning ideas into engaging visuals."
 
 <img src="https://skillicons.dev/icons?i=ps,ae,pr,figma" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logo=&logoColor=white"/>
+<img src="https://img.shields.io/badge/CapCut-000000?style=for-the-badge"/>
 
 **Programming & Development**
 
-<img src="https://skillicons.dev/icons?i=python,flask,html,css,js,mysql,unity,git" />
+<img src="https://skillicons.dev/icons?i=py,flask,html,css,js,mysql,unity,git" />
 
 </div>
 
 <br/>
 
-### 📌 Beberapa Project yang Pernah Dikerjakan
+### 📌 Repo Utama
 
-<details>
-<summary><b>🎥 Produksi Video & Dokumentasi (SagoeTV)</b></summary>
-<br/>
-
-- Refleksi Usia 80 Tahun oleh Prof. Abdi A. Wahab
-- Cerita Mantan Menteri Pertahanan GAM
-- Ancaman Global Bukan Lagi Perang, tapi… — Nezar Patria (Wamenkominfo RI)
-- Melihat Masa Depan Bahasa Aceh — Mellani Subarni (Ibu PJ Gubernur Aceh)
-- Jawaban Anies Baswedan Soal Perubahan
-- Video Profil & Teaser Politeknik Negeri Lhokseumawe 2024
-
-</details>
-
-<details>
-<summary><b>🏆 Pencapaian</b></summary>
-<br/>
-
-- 🥉 Juara 4 — Lomba Fotografi Edukatif Kultural, Museum Samudera Pasai (2023)
-
-</details>
+<!--
+  Ganti REPO-1 dan REPO-2 di bawah dengan nama repository utamamu
+  Contoh: repo=belajar-flask-app
+-->
+<div align="center">
+<a href="https://github.com/adillahaku/REPO-1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adillahaku&repo=REPO-1&theme=tokyonight&hide_border=true" width="45%"/>
+</a>
+<a href="https://github.com/adillahaku/REPO-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adillahaku&repo=REPO-2&theme=tokyonight&hide_border=true" width="45%"/>
+</a>
+</div>
 
 <br/>
 
@@ -106,13 +108,13 @@ Motto      : "Turning ideas into engaging visuals."
 <img src="https://raw.githubusercontent.com/adillahaku/adillahaku/output/github-contribution-grid-snake.svg" width="100%" />
 </div>
 
-> ⚙️ Animasi ular ini baru muncul setelah kamu memasang GitHub Action `snake.yml` (sudah aku siapkan filenya, lihat instruksi setup di bawah).
+> ⚙️ Animasi ular muncul setelah GitHub Action `snake.yml` dipasang & dijalankan minimal sekali (lihat instruksi setup).
 
 <br/>
 
 <div align="center">
 
-💬 **"Setiap desain punya cerita, setiap video punya rasa."**
+💬 **"From Photoshop to Python — masih terus belajar."**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
