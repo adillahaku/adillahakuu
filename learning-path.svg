@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="476" viewBox="0 0 640 476">
+<defs>
+  <linearGradient id="barFill" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF7A45" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FF7A45" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#FFB37B" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="clip-track">
+    <rect x="24" y="54" width="592" height="10" rx="5"/>
+    <rect x="24" y="112" width="592" height="10" rx="5"/>
+    <rect x="24" y="170" width="592" height="10" rx="5"/>
+    <rect x="24" y="228" width="592" height="10" rx="5"/>
+    <rect x="24" y="286" width="592" height="10" rx="5"/>
+    <rect x="24" y="344" width="592" height="10" rx="5"/>
+    <rect x="24" y="402" width="592" height="10" rx="5"/>
+  </clipPath>
+</defs>
+<rect x="0" y="0" width="640" height="476" rx="18" fill="#0D0D0D" stroke="#2A1B12" stroke-width="1.5"/>
+<circle cx="610" cy="35" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.0s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">HTML &amp; CSS</text>
+<rect x="24" y="54" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="54" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="93" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.15s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="98" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">JavaScript</text>
+<rect x="24" y="112" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="112" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="151" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.3s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">Python &amp; Flask</text>
+<rect x="24" y="170" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="170" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="209" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.45s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="214" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">MySQL &amp; Database Design</text>
+<rect x="24" y="228" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="228" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.45s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="267" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.6s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="272" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">REST API</text>
+<rect x="24" y="286" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="286" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="325" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.75s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">Frontend Framework (React/Vue)</text>
+<rect x="24" y="344" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="344" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.75s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<circle cx="610" cy="383" r="4" fill="#FF7A45">
+  <animate attributeName="opacity" values="1;0.25;1" dur="1.3s" begin="0.9s" repeatCount="indefinite"/>
+</circle>
+<text x="24" y="388" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EDEDED">Git Workflow &amp; Deployment</text>
+<rect x="24" y="402" width="592" height="10" rx="5" fill="#242018"/>
+<g clip-path="url(#clip-track)">
+  <rect x="-106" y="402" width="130" height="10" fill="url(#barFill)">
+    <animate attributeName="x" from="-106" to="616" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+  </rect>
+</g>
+</svg>
