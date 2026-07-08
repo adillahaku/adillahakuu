@@ -22,19 +22,7 @@
 
 ### 👋 Tentang <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/wave.gif" width="28"/>
 
-```yaml
-Nama           : diells
-Peran          : Graphic Designer → belajar jadi Fullstack Developer
-Status         : 🚧 On Progress — masih terus belajar
-Fokus saat ini : HTML, CSS, JavaScript, Python, Flask, MySQL
-Motto          : "From Photoshop to Python."
-```
 
-- 🎨 Basic Graphic Designer — biasa main di Photoshop, Premiere Pro, After Effects, Figma
-- 🚀 Sekarang lagi on progress belajar **Fullstack Development**
-- 🧩 Fokus belajar: HTML, CSS, JavaScript, Python, Flask, MySQL, Git
-- 🌱 Percaya proses — dari visual design pelan-pelan merambah ke logic & kode
-- 💬 Terbuka diskusi soal transisi Design → Code, atau kolaborasi project
 
 <br/>
 
@@ -44,7 +32,7 @@ Motto          : "From Photoshop to Python."
 <img src="https://raw.githubusercontent.com/adillahaku/adillahaku/main/assets/learning-path.svg" width="100%"/>
 </div>
 
-> 🚧 Semuanya masih terus dipelajari — sengaja tanpa angka persentase, karena skill nggak bisa diukur cuma dari itu.
+
 
 <br/>
 
