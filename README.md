@@ -14,8 +14,7 @@
 
 </div>
 
----
-<div align="center">
+<div align="right">
 <img src="https://raw.githubusercontent.com/adillahaku/adillahaku/main/assets/pudgy-working.gif" width="300"/>
 </div>
 
