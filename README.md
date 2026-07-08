@@ -20,7 +20,7 @@
 
 ---
 
-### 👋 Tentang <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/wave.gif" width="28"/>
+###  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/wave.gif" width="28"/>
 
 
 
