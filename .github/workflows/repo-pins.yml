@@ -1,0 +1,83 @@
+name: Generate Repo Pins
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # generate ulang setiap 12 jam
+  workflow_dispatch: {}       # bisa dijalankan manual dari tab Actions
+  push:
+    branches:
+      - main
+
+jobs:
+  repo-pins:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate repo pin cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: adillahaku
+          REPOS: "SM-Portal-PT-Laris,Content-development-project"
+        run: |
+          python3 - << 'EOF'
+          import json, os, urllib.request
+
+          username = os.environ["USERNAME"]
+          repos = os.environ["REPOS"].split(",")
+          token = os.environ["GITHUB_TOKEN"]
+
+          def esc(s):
+              return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+          def fetch(repo):
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/{username}/{repo}",
+                  headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+              )
+              with urllib.request.urlopen(req) as r:
+                  return json.load(r)
+
+          card_w, card_h, gap = 300, 120, 20
+          total_w = card_w * len(repos) + gap * (len(repos) - 1)
+          svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{total_w}" height="{card_h}" viewBox="0 0 {total_w} {card_h}">']
+
+          for i, repo in enumerate(repos):
+              data = fetch(repo.strip())
+              name = data.get("name", repo)
+              desc = data.get("description") or "No description"
+              if len(desc) > 58:
+                  desc = desc[:55] + "..."
+              lang = data.get("language") or "-"
+              stars = data.get("stargazers_count", 0)
+              forks = data.get("forks_count", 0)
+              x = i * (card_w + gap)
+              svg.append(f'''
+          <g transform="translate({x},0)">
+            <rect x="0" y="0" width="{card_w}" height="{card_h}" rx="14" fill="#0D0D0D" stroke="#2A1B12" stroke-width="1.5"/>
+            <text x="20" y="32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#FF7A45">{esc(name)}</text>
+            <text x="20" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#CCCCCC">{esc(desc)}</text>
+            <circle cx="24" cy="90" r="5" fill="#FF7A45"/>
+            <text x="36" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#EDEDED">{esc(lang)}</text>
+            <text x="150" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#EDEDED">&#9733; {stars}</text>
+            <text x="210" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#EDEDED">fork {forks}</text>
+          </g>
+          ''')
+
+          svg.append('</svg>')
+
+          os.makedirs("assets", exist_ok=True)
+          with open("assets/repo-pins.svg", "w") as f:
+              f.write("".join(svg))
+          EOF
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated: repo pin cards"; then
+            git push
+          fi
