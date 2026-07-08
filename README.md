@@ -43,25 +43,25 @@ Motto          : "From Photoshop to Python."
 <div align="center">
 
 `HTML & CSS`
-<img src="https://progress-bar.dev/90?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/90/?color=FF7A45&width=250"/>
 
 `JavaScript`
-<img src="https://progress-bar.dev/65?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/65/?color=FF7A45&width=250"/>
 
 `Python & Flask`
-<img src="https://progress-bar.dev/55?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/55/?color=FF7A45&width=250"/>
 
 `MySQL & Database Design`
-<img src="https://progress-bar.dev/30?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/30/?color=FF7A45&width=250"/>
 
 `REST API`
-<img src="https://progress-bar.dev/20?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/20/?color=FF7A45&width=250"/>
 
 `Frontend Framework (React/Vue)`
-<img src="https://progress-bar.dev/15?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/15/?color=FF7A45&width=250"/>
 
 `Git Workflow & Deployment`
-<img src="https://progress-bar.dev/25?color=FF7A45&width=250"/>
+<img src="https://progress-bar.dev/25/?color=FF7A45&width=250"/>
 
 </div>
 
